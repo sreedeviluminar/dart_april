@@ -24,5 +24,15 @@ void main() {
   print('list2 = $list2');
   print('numbers = $numbers');
 
-
+  print('length of list2 = ${list2.length}');
+  print('to fetch hello = ${list2[2]}');
+  print(list2.contains("Hai"));
+  list2.removeAt(3);
+  //list2.remove("lum");
+  //print('list2  after removing 3rd index = $list2');
+  list2.insert(3, "Hello");
+  print('list2  after inserting a value at 3rd index = $list2');
+  list2.replaceRange(0, 2, ["one","two"]);
+  print('list2  after replacing group of values from 0 to 1 index = $list2');
+  
 }
