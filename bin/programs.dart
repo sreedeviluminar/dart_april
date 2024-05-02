@@ -10,9 +10,13 @@ void main() {
   for (num i = 1; i <= 10; i++) {
     if (i % 2 == 0) {
       esum = esum + i;
+    }else{
+      osum += i;
     }
   }
   print('sum of even number = $esum');
+  print('sum of odd  number = $osum');
+
 }
 
 /*
