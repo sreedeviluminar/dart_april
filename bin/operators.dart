@@ -46,3 +46,4 @@ void main() {
 ///type test  operators ->   is is!  as(typecast)
 ///bitwise    operator  ->   operations performed in binary values( &  |  ^ )
 ///ternary    operator  ->   condition ? true statement : false statement ;
+///post fix eg: variable++ / variable--   and prefix operator  eg: ++variable / --variable
