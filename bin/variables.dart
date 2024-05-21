@@ -2,7 +2,7 @@
 class Car{
   ///instance/global variables
                            ///?  - null aware  -  the variable may or may not be null
-  String? brand;           // String brand;  here brand is null       String brand = "";  here brand is empty string
+  String? brand;           // String brand;  here brand is null       String brand = await;  here brand is empty string
   String? color;
   int? model;
   double? mileage;
